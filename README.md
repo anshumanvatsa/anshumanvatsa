@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=700&lines=Building+AI-powered+healthcare+systems+%F0%9F%A4%96;Full-Stack+%2B+ML+%2B+DevOps+%E2%80%94+end+to+end+%F0%9F%9A%80;ML+Intern+%40+Deuglo+%7C+Final+Year+%40+VIT+Chennai+%F0%9F%8E%93;Turning+research+into+production-ready+products+%F0%9F%92%A1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=700&lines=Engineering+intelligent+systems+%E2%80%94+idea+to+production+%F0%9F%9B%A0%EF%B8%8F;Full-Stack+%2B+ML+%2B+DevOps+%E2%80%94+end+to+end+%F0%9F%9A%80;ML+Intern+%40+Deuglo+%7C+Final+Year+%40+VIT+Chennai+%F0%9F%8E%93;Turning+research+into+production-ready+products+%F0%9F%92%A1" alt="Typing SVG" />
 
 <br/><br/>
 
