@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=700&lines=Engineering+intelligent+systems+%E2%80%94+idea+to+production+%F0%9F%9B%A0%EF%B8%8F;Full-Stack+%2B+ML+%2B+DevOps+%E2%80%94+end+to+end+%F0%9F%9A%80;ML+Intern+%40+Deuglo+%7C+Final+Year+%40+VIT+Chennai+%F0%9F%8E%93;Turning+research+into+production-ready+products+%F0%9F%92%A1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=750&lines=Engineering+intelligent+systems+%E2%80%94+idea+to+production+%F0%9F%9B%A0%EF%B8%8F;Bharat+Truth+Lens+%E2%80%94+AI+Fact-Checking+for+India+%F0%9F%87%AE%F0%9F%87%B3;Multi-Platform+Engagement+Predictor+%E2%80%94+F1%3D0.87+%F0%9F%93%8A;ML+Intern+%40+Deuglo+%7C+Final+Year+%40+VIT+Chennai+%F0%9F%8E%93;Turning+research+into+production-ready+products+%F0%9F%92%A1" alt="Typing SVG" />
 
 <br/><br/>
 
@@ -21,9 +21,12 @@
 ```python
 anshuman = {
     "role"      : "ML Intern @ Deuglo | Final Year CS @ VIT Chennai",
-    "building"  : "Post Engagement Prediction Engine — XGBoost + SHAP + FastAPI",
+    "latest"    : [
+        "Bharat Truth Lens — Hybrid NLP fact-checker for Indian democracy 🇮🇳",
+        "Multi-Platform Engagement Predictor — LightGBM, F1=0.87, AUC=0.94 📊",
+    ],
     "research"  : "Two-Stage Social Media Intelligence System — Target: IEEE Access",
-    "interests" : ["LLMs", "MLOps", "Full-Stack AI", "Real-time Systems"],
+    "interests" : ["LLMs", "MLOps", "Full-Stack AI", "NLP", "Real-time Systems"],
     "reach_me"  : "atulvatsamishra@gmail.com"
 }
 ```
@@ -33,6 +36,45 @@ anshuman = {
 ## 🚀 Featured Projects
 
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### 🇮🇳 [Bharat Truth Lens](https://github.com/anshumanvatsa/bharat-truth-lens)
+
+**AI-powered fake news detection & civic engagement platform for India.**
+
+- 🧠 Fine-tuned **DistilBERT** on 12,836 LIAR dataset samples (6-class)
+- 🔗 **4-layer hybrid pipeline**: DistilBERT → Evidence Retrieval (Wikipedia + Tavily) → Semantic Similarity → Credibility Weighting
+- 📈 **+7.9% Macro F1** improvement (ablation study on 500 FEVER samples)
+- 🗳️ Real **1-person-1-vote** virtual PM election across all 36 states/UTs
+- 🤖 **Groq LLaMA-3.1-8B** for cloud AI reasoning
+- 🔐 JWT auth + bcrypt + MongoDB Atlas
+
+`FastAPI` `DistilBERT` `Groq LLaMA-3` `React 18` `TypeScript` `MongoDB Atlas`
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live-bharat--truth--lens.vercel.app-22c55e?style=for-the-badge)](https://bharat-truth-lens.vercel.app)
+[![API Docs](https://img.shields.io/badge/📖_API_Docs-onrender.com/docs-009688?style=for-the-badge)](https://bharat-truth-lens.onrender.com/docs)
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 [Multi-Platform Engagement Predictor](https://github.com/anshumanvatsa/multi-platform-engagement-predictor)
+
+**Social media engagement predictor trained on 800K+ posts.**
+
+- 🚀 **LightGBM** classifier — **F1 = 0.87**, **AUC = 0.94**
+- 🌐 Covers **Facebook, TikTok, Twitter & YouTube** in a single model
+- 🔍 **SHAP explainability** — per-prediction feature importance
+- ⚡ Pre-publication constraints: only features known *before* posting
+- 📊 Per-platform bias analysis & calibration curves
+- 🔗 FastAPI inference endpoint + React dashboard
+
+`LightGBM` `XGBoost` `SHAP` `FastAPI` `React` `Python` `Scikit-learn`
+
+[![GitHub](https://img.shields.io/badge/🔗_View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/anshumanvatsa/multi-platform-engagement-predictor)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -103,6 +145,8 @@ anshuman = {
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainability-8A2BE2?style=for-the-badge)
@@ -151,17 +195,21 @@ anshuman = {
 ## 🧠 Currently Working On
 
 ```
-📍 ML Intern @ Deuglo
-   └── Post Engagement Prediction Engine
-       ├── XGBoost + SHAP feature importance
-       ├── FastAPI inference service
-       └── Integrated into DG-Social production platform
+🇮🇳 Bharat Truth Lens (LIVE → bharat-truth-lens.vercel.app)
+   └── Hybrid NLP pipeline: DistilBERT → Evidence → Semantic → Credibility
+       ├── +7.9% Macro F1 improvement on FEVER benchmark
+       ├── Real civic voting system: 36 states/UTs, age-wise breakdown
+       └── Groq LLaMA-3.1-8B for cloud inference (no GPU needed)
 
-📍 7th Sem Research Project @ VIT Chennai
-   └── Two-Stage Social Media Intelligence System
+📊 Multi-Platform Engagement Predictor (LightGBM · F1=0.87 · AUC=0.94)
+   └── 800K+ posts across Facebook, TikTok, Twitter, YouTube
+       ├── SHAP explainability + per-platform bias analysis
+       └── Pre-publication constraints (no data leakage)
+
+📍 ML Intern @ Deuglo — DG-Social Production Platform
+   └── Two-Stage Social Media Intelligence System (Target: IEEE Access)
        ├── Stage 1: Pre-publication engagement predictor
-       ├── Stage 2: TGN-based real-time virality tracker
-       └── Target: IEEE Access submission
+       └── Stage 2: TGN-based real-time virality tracker
 ```
 
 ---
