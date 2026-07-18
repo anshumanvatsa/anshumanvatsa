@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:1e3a5f&height=200&section=header&text=Anshuman%20&fontSize=52&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=ML%20Engineer%20%E2%80%A2%20Full-Stack%20Developer%20%E2%80%A2%20AI%20Builder&descSize=18&descAlignY=60&descColor=8b949e" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:1e3a5f&height=200&section=header&text=Anshuman%20Mishra&fontSize=48&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=ML%20Engineer%20%E2%80%A2%20Full-Stack%20Developer%20%E2%80%A2%20AI%20Builder&descSize=18&descAlignY=60&descColor=8b949e" width="100%" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=750&lines=Engineering+intelligent+systems+%E2%80%94+idea+to+production+%F0%9F%9B%A0%EF%B8%8F;Bharat+Truth+Lens+%E2%80%94+AI+Fact-Checking+for+India+%F0%9F%87%AE%F0%9F%87%B3;Multi-Platform+Engagement+Predictor+%E2%80%94+F1%3D0.87+%F0%9F%93%8A;ML+Intern+%40+Deuglo+%7C+Final+Year+%40+VIT+Chennai+%F0%9F%8E%93;Turning+research+into+production-ready+products+%F0%9F%92%A1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=ML+Engineer+%7C+Full-Stack+Developer+%7C+AI+Builder;20%2B+Projects+Shipped+to+Production;ML+Intern+%40+Deuglo+%7C+VIT+Chennai+%7C+Final+Year;Research+%E2%86%92+IEEE+Access+Target;Open+to+Full-Time+Opportunities" alt="Typing SVG" />
 
 <br/><br/>
 
@@ -21,10 +21,7 @@
 ```python
 anshuman = {
     "role"      : "ML Intern @ Deuglo | Final Year CS @ VIT Chennai",
-    "latest"    : [
-        "Bharat Truth Lens — Hybrid NLP fact-checker for Indian democracy 🇮🇳",
-        "Multi-Platform Engagement Predictor — LightGBM, F1=0.87, AUC=0.94 📊",
-    ],
+    "building"  : "Multi-Platform Engagement Predictor — LightGBM + SHAP + FastAPI",
     "research"  : "Two-Stage Social Media Intelligence System — Target: IEEE Access",
     "interests" : ["LLMs", "MLOps", "Full-Stack AI", "NLP", "Real-time Systems"],
     "reach_me"  : "atulvatsamishra@gmail.com"
@@ -35,22 +32,16 @@ anshuman = {
 
 ## 🚀 Featured Projects
 
+> 🟢 **Live** — Projects deployed and running in production
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🇮🇳 [Bharat Truth Lens](https://github.com/anshumanvatsa/bharat-truth-lens)
+**AI-powered fake news detection & civic engagement platform for India.** Fine-tuned DistilBERT + 4-layer hybrid NLP pipeline, real 1-person-1-vote virtual PM election across all 36 states/UTs, dynamic severity scoring, JWT auth, and MongoDB Atlas backend.
 
-**AI-powered fake news detection & civic engagement platform for India.**
-
-- 🧠 Fine-tuned **DistilBERT** on 12,836 LIAR dataset samples (6-class)
-- 🔗 **4-layer hybrid pipeline**: DistilBERT → Evidence Retrieval (Wikipedia + Tavily) → Semantic Similarity → Credibility Weighting
-- 📈 **+7.9% Macro F1** improvement (ablation study on 500 FEVER samples)
-- 🗳️ Real **1-person-1-vote** virtual PM election across all 36 states/UTs
-- 🤖 **Groq LLaMA-3.1-8B** for cloud AI reasoning
-- 🔐 JWT auth + bcrypt + MongoDB Atlas
-
-`FastAPI` `DistilBERT` `Groq LLaMA-3` `React 18` `TypeScript` `MongoDB Atlas`
+`FastAPI` `DistilBERT` `Groq LLaMA-3` `React 18` `TypeScript` `MongoDB`
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live-bharat--truth--lens.vercel.app-22c55e?style=for-the-badge)](https://bharat-truth-lens.vercel.app)
 [![API Docs](https://img.shields.io/badge/📖_API_Docs-onrender.com/docs-009688?style=for-the-badge)](https://bharat-truth-lens.onrender.com/docs)
@@ -58,78 +49,100 @@ anshuman = {
 </td>
 <td width="50%" valign="top">
 
-### 📊 [Multi-Platform Engagement Predictor](https://github.com/anshumanvatsa/multi-platform-engagement-predictor)
-
-**Social media engagement predictor trained on 800K+ posts.**
-
-- 🚀 **LightGBM** classifier — **F1 = 0.87**, **AUC = 0.94**
-- 🌐 Covers **Facebook, TikTok, Twitter & YouTube** in a single model
-- 🔍 **SHAP explainability** — per-prediction feature importance
-- ⚡ Pre-publication constraints: only features known *before* posting
-- 📊 Per-platform bias analysis & calibration curves
-- 🔗 FastAPI inference endpoint + React dashboard
-
-`LightGBM` `XGBoost` `SHAP` `FastAPI` `React` `Python` `Scikit-learn`
-
-[![GitHub](https://img.shields.io/badge/🔗_View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/anshumanvatsa/multi-platform-engagement-predictor)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 🏥 [CarePredict AI](https://github.com/anshumanvatsa/care-predict-ai-v1)
-**Full-stack clinical AI platform** — predicts 90-day patient deterioration risk across 4 chronic conditions using a Multi-Task PyTorch LSTM. Features 5-tab results dashboard with explainability, risk stratification, and CSV export.
+**Full-stack clinical AI platform** predicting 90-day patient deterioration risk across 4 chronic conditions using a Multi-Task PyTorch LSTM. Features a 5-tab results dashboard with explainability, risk stratification, and CSV export.
 
 `FastAPI` `PyTorch LSTM` `React` `XGBoost` `Supabase` `Render`
 
-[![Live](https://img.shields.io/badge/Live-care--predict--ai.vercel.app-brightgreen?style=flat-square)](https://care-predict-ai.vercel.app)
+[![Live](https://img.shields.io/badge/🌐_Live-care--predict--ai.vercel.app-22c55e?style=for-the-badge)](https://care-predict-ai.vercel.app)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### ☁️ [CloudPilot DevOps](https://github.com/anshumanvatsa/cloudpilot-devops-platform)
-**Production DevOps dashboard** — replicating Vercel/Render/AWS functionality with real-time CPU/memory/network metrics via WebSockets, deployment management (build/rollback), log streaming, and severity-based alerts.
+**Production DevOps dashboard** replicating Vercel/Render/AWS functionality with real-time CPU/memory/network metrics via WebSockets, deployment management with build/rollback, live log streaming, and severity-based alerts.
 
 `FastAPI` `React` `TypeScript` `Docker` `AWS EC2` `Redis` `PostgreSQL`
 
-[![Live](https://img.shields.io/badge/Live-cloudpilot.sslip.io-brightgreen?style=flat-square)](http://cloudpilot.13.60.57.168.sslip.io)
+[![Live](https://img.shields.io/badge/🌐_Live-cloudpilot.sslip.io-22c55e?style=for-the-badge)](http://cloudpilot.13.60.57.168.sslip.io)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌊 [VARUNA — Ocean Hazard Monitor](https://github.com/Krishna-Kilrofkansa/VARUNA)
+**Real-time ocean hazard monitoring & reporting platform** with interactive Leaflet maps, authenticated and anonymous hazard reporting, live analytics dashboards, community social features, and a full admin management panel.
+
+`Next.js 14` `TypeScript` `Tailwind CSS` `Recharts` `Leaflet` `MongoDB`
+
+[![Live](https://img.shields.io/badge/🌐_Live-varuna001.vercel.app-22c55e?style=for-the-badge)](https://varuna001.vercel.app)
 
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+### 📊 [Multi-Platform Engagement Predictor](https://github.com/anshumanvatsa/multi-platform-engagement-predictor)
+**Social media engagement predictor** trained on 800K+ posts across Facebook, TikTok, Twitter & YouTube. LightGBM classifier with SHAP explainability, per-platform bias analysis, and pre-publication feature constraints for realistic predictions.
+
+`LightGBM` `XGBoost` `SHAP` `FastAPI` `React` `Python` `Scikit-learn`
+
+[![GitHub](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/anshumanvatsa/multi-platform-engagement-predictor)
+
+</td>
 <td width="50%" valign="top">
 
 ### 🤖 [AutoStream AI Agent](https://github.com/anshumanvatsa/AutoStream-AI-Agent)
-**Conversational AI lead-capture agent** — converts user chats into qualified leads via LangGraph-controlled workflows: intent detection → RAG retrieval → structured lead capture. Supports WhatsApp Business API.
+**Conversational AI lead-capture agent** transforming user chats into qualified business leads via LangGraph-controlled workflows — intent detection, RAG-based knowledge retrieval, and structured lead capture. Supports WhatsApp Business API integration.
 
-`LangGraph` `Groq LLM` `RAG` `FastAPI` `React` `TypeScript`
+`LangGraph` `Groq LLM` `RAG` `FastAPI` `React` `TypeScript` `MongoDB`
 
-</td>
-<td width="50%" valign="top">
-
-### 🏗️ [Construction Digital Twin](https://github.com/anshumanvatsa/construction-digital-twin)
-**Real-time IoT construction site simulator** — live WebSocket-driven worker movement, hazard zone tracking, safety risk analytics, and a full operations dashboard. 12+ sensor types simulated.
-
-`FastAPI` `WebSockets` `React` `Redis` `PostgreSQL` `TypeScript`
+[![GitHub](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/anshumanvatsa/AutoStream-AI-Agent)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🫀 [Heart Disease Predictor](https://github.com/anshumanvatsa/Heart-Disease-Predictor)
-**ML research pipeline** — compares 4 classifiers (LR, Random Forest, XGBoost, MLP) on the UCI Cleveland dataset with full SHAP explainability. Best model: Random Forest at 82% accuracy, AUC-ROC 0.912.
+### 🏗️ [Construction Digital Twin](https://github.com/anshumanvatsa/construction-digital-twin)
+**Real-time IoT construction site simulator** with live WebSocket-driven worker movement, hazard zone tracking, safety risk analytics, and a full operations dashboard. 12+ sensor types simulated with live telemetry ingestion.
 
-`scikit-learn` `XGBoost` `SHAP` `Python` `Jupyter`
+`FastAPI` `WebSockets` `React` `Redis` `PostgreSQL` `TypeScript`
+
+[![GitHub](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/anshumanvatsa/construction-digital-twin)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔐 [Selective Encryption](https://github.com/anshumanvatsa/Selective-Encryption)
-**Production-grade security system** — AES-256-GCM field-level encryption with JWT auth, Role-Based Access Control, file encryption, full audit logging, Docker orchestration, and CI/CD observability.
+### 🫀 [Heart Disease Predictor](https://github.com/anshumanvatsa/Heart-Disease-Predictor)
+**ML research pipeline** comparing 4 classifiers (Logistic Regression, Random Forest, XGBoost, MLP) on the UCI Cleveland dataset with full SHAP explainability, ROC curve analysis, and a FastAPI inference endpoint.
 
-`FastAPI` `React` `AES-256-GCM` `JWT` `RBAC` `Docker`
+`scikit-learn` `XGBoost` `SHAP` `FastAPI` `Python` `Jupyter`
+
+[![GitHub](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/anshumanvatsa/Heart-Disease-Predictor)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔐 [Selective Encryption](https://github.com/anshumanvatsa/Selective-Encryption)
+**Production-grade security system** with AES-256-GCM field-level encryption, JWT authentication, Role-Based Access Control, file encryption, full audit logging, Docker orchestration, and CI/CD pipeline with observability.
+
+`FastAPI` `React` `AES-256-GCM` `JWT` `RBAC` `Docker` `GitHub Actions`
+
+[![GitHub](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/anshumanvatsa/Selective-Encryption)
+
+</td>
+<td width="50%" valign="top">
+
+### 📱 [Social Media Engagement Prediction](https://github.com/anshumanvatsa/Social-Media-engagement-prediction)
+**Pre-publication social media engagement predictor** using only features available before posting — hashtags, posting time, media type, and platform. RandomForest model with strict no-leakage data pipeline and explainability layer.
+
+`RandomForest` `Scikit-learn` `FastAPI` `Python` `Pandas` `SHAP`
+
+[![GitHub](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/anshumanvatsa/Social-Media-engagement-prediction)
 
 </td>
 </tr>
@@ -147,7 +160,7 @@ anshuman = {
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainability-8A2BE2?style=for-the-badge)
 ![LangGraph](https://img.shields.io/badge/LangGraph-LLM%20Workflows-00A67E?style=for-the-badge)
@@ -195,18 +208,12 @@ anshuman = {
 ## 🧠 Currently Working On
 
 ```
-🇮🇳 Bharat Truth Lens (LIVE → bharat-truth-lens.vercel.app)
-   └── Hybrid NLP pipeline: DistilBERT → Evidence → Semantic → Credibility
-       ├── +7.9% Macro F1 improvement on FEVER benchmark
-       ├── Real civic voting system: 36 states/UTs, age-wise breakdown
-       └── Groq LLaMA-3.1-8B for cloud inference (no GPU needed)
+📍 ML Intern @ Deuglo
+   └── Multi-Platform Social Media Engagement Predictor
+       ├── LightGBM + SHAP — 800K+ real posts across 5 platforms
+       └── Integrated into DG-Social production platform
 
-📊 Multi-Platform Engagement Predictor (LightGBM · F1=0.87 · AUC=0.94)
-   └── 800K+ posts across Facebook, TikTok, Twitter, YouTube
-       ├── SHAP explainability + per-platform bias analysis
-       └── Pre-publication constraints (no data leakage)
-
-📍 ML Intern @ Deuglo — DG-Social Production Platform
+📍 7th Sem Research Project @ VIT Chennai
    └── Two-Stage Social Media Intelligence System (Target: IEEE Access)
        ├── Stage 1: Pre-publication engagement predictor
        └── Stage 2: TGN-based real-time virality tracker
