@@ -149,8 +149,8 @@ anshuman = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anshumanvatsa&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f5a623&icon_color=f5a623&text_color=c9d1d9&ring_color=f5a623" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshumanvatsa&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f5a623&text_color=c9d1d9&langs_count=8" />
+<img height="180em" src="https://readme-stats-anuraghazra.vercel.app/api?username=anshumanvatsa&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f5a623&icon_color=f5a623&text_color=c9d1d9&ring_color=f5a623" />
+<img height="180em" src="https://readme-stats-anuraghazra.vercel.app/api/top-langs/?username=anshumanvatsa&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f5a623&text_color=c9d1d9&langs_count=8" />
 
 </div>
 
