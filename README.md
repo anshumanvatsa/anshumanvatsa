@@ -97,7 +97,7 @@ anshuman = {
 
 `FastAPI` `WebSockets` `React` `TypeScript` `IoT`
 
-[![Live](https://img.shields.io/badge/🌐_Live-AWS_EC2-22c55e?style=for-the-badge)](http://13.60.57.168:4006/login)
+[![Live](https://img.shields.io/badge/🌐_Live-AWS_EC2-22c55e?style=for-the-badge)](http://13.60.57.168:4009)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/anshumanvatsa/construction-digital-twin)
 
 </td>
