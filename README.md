@@ -151,7 +151,7 @@ anshuman = {
 <br/>
 
 <a href="https://anshumanvatsa-portfolio.vercel.app">
-  <img src="https://img.shields.io/badge/Production_Deployments-10%2B-22c55e?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Live_Deployments-10%2B-22c55e?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 <a href="https://github.com/anshumanvatsa">
   <img src="https://img.shields.io/badge/Total_Projects-15%2B-3b82f6?style=for-the-badge&logo=github&logoColor=white" />
@@ -161,9 +161,6 @@ anshuman = {
 </a>
 <a href="#">
   <img src="https://img.shields.io/badge/Peak_Model_Accuracy_(AUC)-0.94-ec4899?style=for-the-badge&logo=pytorch&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/CGPA-8.83%20/%2010.0-8b5cf6?style=for-the-badge&logo=vit&logoColor=white" />
 </a>
 
 <br/><br/>
