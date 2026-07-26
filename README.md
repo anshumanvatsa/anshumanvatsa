@@ -145,9 +145,28 @@ anshuman = {
 
 ---
 
-## 📊 GitHub Stats
+## 📈 Performance & Impact Metrics
 
 <div align="center">
+<br/>
+
+<a href="https://anshumanvatsa-portfolio.vercel.app">
+  <img src="https://img.shields.io/badge/Production_Deployments-10%2B-22c55e?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+<a href="https://github.com/anshumanvatsa">
+  <img src="https://img.shields.io/badge/Total_Projects-15%2B-3b82f6?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://github.com/anshumanvatsa/multi-platform-engagement-predictor">
+  <img src="https://img.shields.io/badge/Data_Points_Processed-800K%2B-f5a623?style=for-the-badge&logo=databricks&logoColor=white" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Peak_Model_Accuracy_(AUC)-0.94-ec4899?style=for-the-badge&logo=pytorch&logoColor=white" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/CGPA-8.83%20/%2010.0-8b5cf6?style=for-the-badge&logo=vit&logoColor=white" />
+</a>
+
+<br/><br/>
 
 <img height="180em" src="https://readme-stats-anuraghazra.vercel.app/api/top-langs/?username=anshumanvatsa&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f5a623&text_color=c9d1d9&langs_count=8" />
 
