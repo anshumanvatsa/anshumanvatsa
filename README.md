@@ -149,14 +149,7 @@ anshuman = {
 
 <div align="center">
 
-<img height="180em" src="https://readme-stats-anuraghazra.vercel.app/api?username=anshumanvatsa&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f5a623&icon_color=f5a623&text_color=c9d1d9&ring_color=f5a623" />
 <img height="180em" src="https://readme-stats-anuraghazra.vercel.app/api/top-langs/?username=anshumanvatsa&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f5a623&text_color=c9d1d9&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=anshumanvatsa&theme=github-dark-blue&hide_border=true&background=0d1117&ring=f5a623&fire=f5a623&currStreakLabel=f5a623&sideLabels=c9d1d9&dates=8b949e&sideNums=c9d1d9&currStreakNum=ffffff" alt="GitHub Streak" />
 
 </div>
 
